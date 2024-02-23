@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  gap: 10px;
+  background-color: black; /* Changed background color to black */
+  padding: 10px;
+}
+
+.grid-item {
+  background-color:black;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  border: 2px solid; /* Added border */
+}
+
+.border-brown {
+  border-color: rgb(55, 54, 54); /* Brown color */
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.item5 {
+  grid-row: 3;
+}
+</style>
+</head>
+<body style="background-color: black;">
+
+<h1 style="color: white;">DOE - AI based 3D Interactive Map</h1>
+
+<div class="grid-container">
+  <div class="grid-item item1 border-brown"><img src="item1.png" alt=""></div>
+  <div class="grid-item item2 border-brown"><img src="item2.png" alt=""></div>
+  <div class="grid-item item3 border-brown"><img src="item3.png" alt=""></div>  
+  <div class="grid-item item4 border-brown"><img src="item4.png" alt=""></div>
+  <div class="grid-item item5 border-brown"><img src="item5.png" alt=""></div>
+  <div class="grid-item item5 border-brown"><img src="item6.png" alt="img_mountains"></div>
+</div>
+
+</body>
+</html>
